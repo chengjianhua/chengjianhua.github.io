@@ -21,8 +21,8 @@
       "path---hexo-deploy-without-pw-by-ssh-113caed363389123bed8.js.map"
     ],
     "path---first-triage-to-unite-test-in-mocha": [
-      "path---first-triage-to-unite-test-in-mocha-4d09b5952ecc27b9d541.js",
-      "path---first-triage-to-unite-test-in-mocha-4d09b5952ecc27b9d541.js.map"
+      "path---first-triage-to-unite-test-in-mocha-74d7f53fa9627832586a.js",
+      "path---first-triage-to-unite-test-in-mocha-74d7f53fa9627832586a.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
@@ -53,8 +53,8 @@
       "component---src-layouts-index-js-107f221e3fa1f4f95821.js.map"
     ],
     "path---index": [
-      "path---index-139ef2b9f65c9d2d43e9.js",
-      "path---index-139ef2b9f65c9d2d43e9.js.map"
+      "path---index-fd0ff92ce385d3c04dfe.js",
+      "path---index-fd0ff92ce385d3c04dfe.js.map"
     ],
     "path---atom-custom-style": [
       "path---atom-custom-style-eb9ed81baec292241c98.js",
@@ -86,6 +86,10 @@
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "path---fe-unit-testing-practice": [
+      "path---fe-unit-testing-practice-aa9e10e89869abc53d28.js",
+      "path---fe-unit-testing-practice-aa9e10e89869abc53d28.js.map"
+    ],
     "path---exists-compare-to-not-exists": [
       "path---exists-compare-to-not-exists-3fc5ed8af64a8a5248ee.js",
       "path---exists-compare-to-not-exists-3fc5ed8af64a8a5248ee.js.map"
@@ -95,9 +99,9 @@
       "path---function-attributes-methods-constructor-df2f0e5b91d1dfcc396f.js.map"
     ],
     "app": [
-      "app-bfd8da1f92add9cf01c3.js",
+      "app-980fa26683298449e8f0.js",
       "build-js-styles.css",
-      "app-bfd8da1f92add9cf01c3.js.map",
+      "app-980fa26683298449e8f0.js.map",
       "build-js-styles.css.map"
     ],
     "path---border-usage": [
