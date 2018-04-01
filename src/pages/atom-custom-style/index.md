@@ -25,14 +25,16 @@ Atom 作为新一代的文本编辑器，插件丰富，可定制化程度高。
   // background-color: whitesmoke;
 }
 ```
+
 我们添加一个 `font-maily` 属性，并设置我们想要的字体
 
 ```css
 .tree-view {
   // background-color: whitesmoke;
-  font-family: Segoe UI ,Microsoft YaHei;
+  font-family: Segoe UI, Microsoft YaHei;
 }
 ```
+
 **注意：** 设置字体的时候有个技巧，如果设置字体的时候设置两个以上的字体的话，如上我们设置的。第一个字体将用于显示 **西文** 字体（英文字母、英文标点、阿拉伯数字……），然后遇到汉字之类不受第一个字体支持的字符集就按顺序使用第二个字体。所以 **通常我们可以使用这个特性来完成分别设定英文、中文字体。**
 
 设置完成的效果如下
@@ -45,9 +47,9 @@ Atom 作为新一代的文本编辑器，插件丰富，可定制化程度高。
 
 我就不贴对比图了，但是这里有个小坑。当你使用审查元素得知 markdown-preview 界面的内容是被包裹在一个 `<div class="markdown-preview"> </div>` 中的时候，你会直接想设置 `.markdown-preview {font-family: Segoe UI ,Microsoft YaHei;}`，但是无效，我也不知道原因，但是在 Github 上找到了解决方案，如下所示
 
-``` css
+```css
 .markdown-preview.markdown-preview {
-    font-family: "Segoe UI", "Microsoft YaHei"
+  font-family: 'Segoe UI', 'Microsoft YaHei';
 }
 ```
 

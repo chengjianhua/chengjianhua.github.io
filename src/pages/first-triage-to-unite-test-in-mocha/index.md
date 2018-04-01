@@ -4,15 +4,13 @@ date: 2016-12-14 17:14:44
 tags: [Note, mocha, JavaScript]
 ---
 
-# Mocha 和 Chai 入门初探
-
 ## Chai
 
 在和 `jest` 作比较的时候, 两者主要的不同就是 `jest` 的集成度比较高内置断言库, 而 `mocha` 需要搭配额外的断言库, 在此选择了比较流行的 `chai` 作为断言库.
 
 ### 风格的选择
 
-其中 `chai` 又有好几种断言风格, 我们经常见到的其实就是 *BDD* 风格的 `should / expect`.
+其中 `chai` 又有好几种断言风格, 我们经常见到的其实就是 _BDD_ 风格的 `should / expect`.
 
 其中我较喜欢 `should`, 因为它可以直接以属性的方式嵌入所有内置原生对象, 所以可以很方便的以 `variable.should.equal(someValue)` 的形式来书写断言, 和 `expect` 相比较可以省略一对 `()` ... 如果是 `expect` 风格的话, 上述示例代码等价于 `expect(variable).to.equal(someValue)`. 在一般情况下两者的使用时几乎相同的, `expect` 作为断言的开始, `should` 接在想要断言的变量之后. 但是有一些地方 `should` 就需要变换一下我上述所说的写法了.
 
@@ -58,6 +56,7 @@ npm install --save-dev mocha chai
 具体的配置请参照文档 [Mocha - USAGE](http://mochajs.org/#usage).
 
 之后在终端输入 `npm run test` 即可运行测试.
+
 #### 支持 ES6
 
 上述只是配置好了基本的运行环境, 如果需要支持 ES6 的话, 那么还需要两个简单的步骤.

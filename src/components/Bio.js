@@ -28,11 +28,14 @@ class Bio extends React.Component {
         />
         <p>
           Written by Jianhua Cheng who lives and works in Shanghai. Try to build
-          something more attractive and interesting.
-
-          You can follow him on{' '}
-          <a target="_blank" href="https://twitter.com/jianhua_cheng">Twitter</a>{', '}
-          <a target="_blank" href="https://github.com/chengjianhua">Github</a>
+          something more attractive and interesting. You can follow him on{' '}
+          <a target="_blank" href="https://twitter.com/jianhua_cheng">
+            Twitter
+          </a>
+          {', '}
+          <a target="_blank" href="https://github.com/chengjianhua">
+            Github
+          </a>
         </p>
       </div>
     )

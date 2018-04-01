@@ -1,5 +1,5 @@
 ---
-title: exists与not exists的概念与用法
+title: exists 与 not exists 的概念与用法
 date: 2016-03-23 23:57:28
 tags: [SQL, Note]
 ---
@@ -36,35 +36,32 @@ where not exists
 
 ### 示例
 
-*摘自leetcode*
+_摘自 leetcode_
 
-
-----------
+---
 
 职员：
 |Id|Name|Salary|DepartmentId|
 |:----|:-----| :-----|:-----|
-| 1  | Joe   | 70000 | 1 |
-| 2  | Henry | 80000 | 2 |
-| 3  | Sam   | 60000 | 2 |
-| 4  | Max   | 90000 | 1 |
+| 1 | Joe | 70000 | 1 |
+| 2 | Henry | 80000 | 2 |
+| 3 | Sam | 60000 | 2 |
+| 4 | Max | 90000 | 1 |
 
 部门：
-| Id | Name     |
+| Id | Name |
 | :-----|:-----|
-| 1  | IT       |
-| 2  | Sales    |
+| 1 | IT |
+| 2 | Sales |
 
 要求输出每个部门薪水最高的员工的信息，输出格式及结果应为如下：
 
 | Department | Employee | Salary |
-|:-----| :-----|:-----|
+| :--------- | :------- | :----- |
 | IT         | Max      | 90000  |
 | Sales      | Henry    | 80000  |
 
-
-----------
-
+---
 
 解决方法：
 
@@ -72,11 +69,10 @@ where not exists
 SELECT D.Name,A.Name,A.Salary
 FROM
     Employee A,
-    Department D   
+    Department D
 WHERE A.DepartmentId = D.Id
   AND NOT EXISTS
   (SELECT 1 FROM Employee B WHERE B.Salary > A.Salary AND A.DepartmentId = B.DepartmentId)
 ```
 
-`SELECT 1 FROM Employee B WHERE ...`这里为何是`SELECT 1`呢？
-因为上面说过只判断有没有结果集返回，无论返回的是什么都能用来做判断。
+`SELECT 1 FROM Employee B WHERE ...`这里为何是`SELECT 1`呢？因为上面说过只判断有没有结果集返回，无论返回的是什么都能用来做判断。
