@@ -18,7 +18,7 @@ class Bio extends React.Component {
       >
         <img
           src={profilePic}
-          alt={`Kyle Mathews`}
+          alt={`Jianhua Cheng`}
           style={{
             marginRight: rhythm(1 / 2),
             marginBottom: 0,
@@ -30,9 +30,9 @@ class Bio extends React.Component {
           Written by Jianhua Cheng who lives and works in Shanghai. Try to build
           something more attractive and interesting.
 
-          You should follow him on{' '}
-          <a href="https://twitter.com/jianhua_cheng">Twitter</a>{', '}
-          <a href="https://github.com/chengjianhua">Github</a>
+          You can follow him on{' '}
+          <a target="_blank" href="https://twitter.com/jianhua_cheng">Twitter</a>{', '}
+          <a target="_blank" href="https://github.com/chengjianhua">Github</a>
         </p>
       </div>
     )
