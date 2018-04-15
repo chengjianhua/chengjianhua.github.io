@@ -2,6 +2,12 @@ import React from 'react'
 import Link from 'gatsby-link'
 import { Container } from 'react-responsive-grid'
 
+// import 'prismjs/themes/prism-tomorrow.css'
+// import 'prismjs/themes/prism-coy.css'
+// import 'prism-themes/themes/prism-ghcolors.css';
+// import 'prism-themes/themes/prism-hopscotch.css';
+import 'prism-themes/themes/prism-base16-ateliersulphurpool.light.css';
+
 import { rhythm, scale } from '../utils/typography'
 
 class Template extends React.Component {
