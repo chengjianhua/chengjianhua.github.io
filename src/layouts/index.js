@@ -10,6 +10,8 @@ import 'prism-themes/themes/prism-base16-ateliersulphurpool.light.css';
 
 import { rhythm, scale } from '../utils/typography'
 
+import './layout.css';
+
 class Template extends React.Component {
   render() {
     const { location, children } = this.props
