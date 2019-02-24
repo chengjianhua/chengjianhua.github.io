@@ -5,8 +5,8 @@
       "path---websocket-theory-1333c00be365a4ff1dc4.js.map"
     ],
     "path---2018-review": [
-      "path---2018-review-60aff729d5f74e451468.js",
-      "path---2018-review-60aff729d5f74e451468.js.map"
+      "path---2018-review-c973cb58458c34273e16.js",
+      "path---2018-review-c973cb58458c34273e16.js.map"
     ],
     "path---customize-tag-of-jsp": [
       "path---customize-tag-of-jsp-3beac9bb7373fd93b4e3.js",
@@ -25,8 +25,8 @@
       "path---hexo-deploy-without-pw-by-ssh-7e9813f6ee64b6a3af10.js.map"
     ],
     "path---first-triage-to-unite-test-in-mocha": [
-      "path---first-triage-to-unite-test-in-mocha-b8dec5db4cc39dd0085d.js",
-      "path---first-triage-to-unite-test-in-mocha-b8dec5db4cc39dd0085d.js.map"
+      "path---first-triage-to-unite-test-in-mocha-1d1984dd163aa537eafe.js",
+      "path---first-triage-to-unite-test-in-mocha-1d1984dd163aa537eafe.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
@@ -57,8 +57,8 @@
       "component---src-layouts-index-js-9dd93fa1cc7a9a028385.js.map"
     ],
     "path---index": [
-      "path---index-d6afb3a931c67b71dc0b.js",
-      "path---index-d6afb3a931c67b71dc0b.js.map"
+      "path---index-49b76ad8498ddc0284e2.js",
+      "path---index-49b76ad8498ddc0284e2.js.map"
     ],
     "path---atom-custom-style": [
       "path---atom-custom-style-f370697c05de765f561c.js",
@@ -82,6 +82,10 @@
       "path---404-html-a0e39f21c11f6a62c5ab.js",
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "path---what-is-a-good-programmer": [
+      "path---what-is-a-good-programmer-9c814b47b2c83b7d5d33.js",
+      "path---what-is-a-good-programmer-9c814b47b2c83b7d5d33.js.map"
+    ],
     "path---js-learning-class": [
       "path---js-learning-class-455ebae1ae99281a3089.js",
       "path---js-learning-class-455ebae1ae99281a3089.js.map"
@@ -103,9 +107,9 @@
       "path---function-attributes-methods-constructor-b972348134d3d43a3a3a.js.map"
     ],
     "app": [
-      "app-da07f965b404de32f2e6.js",
+      "app-e894adc1e2d8f701ab24.js",
       "build-js-styles.css",
-      "app-da07f965b404de32f2e6.js.map",
+      "app-e894adc1e2d8f701ab24.js.map",
       "build-js-styles.css.map"
     ],
     "path---border-usage": [
