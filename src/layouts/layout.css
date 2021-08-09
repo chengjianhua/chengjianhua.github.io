@@ -2,3 +2,10 @@ a.anchor {
   box-shadow: none;
   color: inherit;
 }
+
+footer {
+  margin-top: 70px;
+}
+footer a {
+  text-align: left;
+}

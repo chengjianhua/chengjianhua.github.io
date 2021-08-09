@@ -74,6 +74,12 @@ class Template extends React.Component {
       >
         {header}
         {children()}
+
+        <footer>
+          <a href="https://beian.miit.gov.cn/" target="_blank">
+            赣ICP备16009271号-2
+          </a>
+        </footer>
       </Container>
     )
   }
